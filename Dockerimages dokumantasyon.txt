@@ -1,0 +1,22 @@
+DOCKER İMAGE CANLIYA ALINMASI
+
+Aşağıdaki işlemleri yapmadan önce bilgisayarımıza docker kurulumunu yapmamız gerekiyor.
+
+Aşağıdaki URL ile DockerHub giriş yapıyoruz 
+
+CMD komut satısına docker login  yazarak username ve password girip login oluyoruz
+
+https://hub.docker.com/repository/docker/mzglu/hocabilgi
+
+DockerHub Sayfasından hocabilgi  isimli  images CMD komut satırına aşağıda verilen Docker komutu yazıyoruz
+
+docker pull mzglu / hocabilgi: latest
+
+CMD komut satırına  docker images yazıp hocabilgi isimli images olup olmadığını kontrol ediyoruz
+
+
+CMD komut satırına  docker run –ti mzglu/hocabilgi yazıp enter basıyoruz ve images çalışıyor.
+
+CMD komut satırına  docker ps –a yazıp aktif olan images görebiliriz.
+
+CMD komut satırına  docker run  C:\users\yunus\> (cmd de bulunduğumuz dizin yazılarak):usr/src/app  mzglu/hocabilgi komutu girilerek verilerimiz çekebilirz.
